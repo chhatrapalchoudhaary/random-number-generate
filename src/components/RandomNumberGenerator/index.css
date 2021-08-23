@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.app-container {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png);
+  background-size: cover;
+}
+
+.container {
+  width: 22%;
+  height: 65%;
+  background-color: white;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.459);
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 36px;
+  color: #0b69ff;
+  font-family: Roboto;
+}
+.button {
+  padding: 10px;
+  margin-top: 5px;
+  width: 120px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+.number {
+  color: #0b69ff;
+  font-size: 50px;
+}
